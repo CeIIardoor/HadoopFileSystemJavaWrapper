@@ -2,7 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		// sudo mount -t vboxsf VM_Shared tp
+		// sudo mount -t vboxsf VM_Shared Win_Shared
 		
 		Delete.rm("/user/TP2");
 		ListFile.ls("/user");
